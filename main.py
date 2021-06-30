@@ -12,7 +12,7 @@ if __name__ == "__main__":
     agentlayers=2
     
 
-    temppath=r'C:\\' #insert working directory and store the other code files there, the results will also be stored there
+    temppath=r'' #insert working directory and store the other code files there, the results will also be stored there
 
 
     nn.train_model(temppath,steps,lr,batch_size,depth,alpha,randomqu,stdnodes,agentlayers)
