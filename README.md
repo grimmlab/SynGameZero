@@ -6,7 +6,7 @@
 A reinforcement learning (RL) based approach for automated flowsheet synthesis for chemical processes. The agent is trained by transforming the task of creating a profitable flowsheet into a turn based two-player game. This transformation allows to employ a similar training procedure as used for AlphaZero.  
 
 
-## Citation
+## Publications
 When using this work, please cite our publications:
 
 [1] **Automated Synthesis of Steady-State Continuous Processes using Reinforcement Learning**  
