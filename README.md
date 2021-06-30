@@ -5,7 +5,34 @@
 
 A reinforcement learning (RL) based approach for automated flowsheet synthesis for chemical processes. The agent is trained by transforming the task of creating a profitable flowsheet into a turn based two-player game. This transformation allows to employ a similar training procedure as used for AlphaZero.  
 
-To use the code, just copy all files into one folder. All checkpoints and plots will be stored to a destination, which can be specified in the file main.py with the variable temppath (this is done by nn.train_model). The function nn.use_model loads the chosen checkpoint and uses the respective ANN to play the game evalsteps times on random instances.
+## Install & Setup 
+First checkout this repo:
+
+```git clone https://github.com/grimmlab/SynGameZero.git```  
+
+We recommend to use virtual environments to install all dependencies. If not already installed, please install `virtualenv`:  
+
+```pip3 install virtualenv```  
+
+Then create a new virtual environment:  
+
+```virtualenv syngamezero```  
+
+Active your environment:
+
+```source syngamezero/bin/active```  
+
+Install all dependencies using pip:  
+
+```pip3 install -r requirements.txt```
+
+## Run the Code
+To run the code just execute:
+
+```python3 main.py```  
+
+You can specifiy the output directory for all checkpoints and plots in the main.py file by updating the `temppath` variable. 
+The function nn.use_model loads a chosen checkpoint and uses the respective ANN to play the game evalsteps times on random instances.
 
 ## Publications
 When using this work, please cite our publications:
