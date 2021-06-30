@@ -5,6 +5,7 @@
 
 A reinforcement learning (RL) based approach for automated flowsheet synthesis for chemical processes. The agent is trained by transforming the task of creating a profitable flowsheet into a turn based two-player game. This transformation allows to employ a similar training procedure as used for AlphaZero.  
 
+To use the code, just copy all files into one folder. All checkpoints and plots will be stored to a destination, which can be specified in the file main.py with the variable temppath. 
 
 ## Publications
 When using this work, please cite our publications:
