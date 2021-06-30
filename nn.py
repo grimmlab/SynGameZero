@@ -303,7 +303,7 @@ def train_model(generalpath,n_steps,learning_rate,batch_size,
         print('step',step)
         #checkpoint saving
         if step%cp_interval==0:
-            torch.save(neuralnet.state_dict(), os.path.join(generalpath,"/checkpoint%s"%str(cpcount)))
+            torch.save(neuralnet.state_dict(), os.path.join(generalpath,"checkpoint%s"%str(cpcount)))
             cpcount=cpcount+1
         
         totlosstoplot=0
@@ -330,30 +330,30 @@ def train_model(generalpath,n_steps,learning_rate,batch_size,
 
         #save nno and plot cost, winner and loss
         if step==n_steps-1:
-            torch.save(neuralnet.state_dict(), os.path.join(generalpath,"/last"))
+            torch.save(neuralnet.state_dict(), os.path.join(generalpath,"last"))
             
             plt.plot(losssafe2,linewidth=1,color='black')
             plt.plot(winsafe2,linewidth=1,color='green')
             plt.xlabel(r'Training Steps')
             plt.xticks([0,50,100],('0', str(int(n_steps/2)), str(n_steps)))
-            plt.savefig(os.path.join(generalpath,"/loss.pdf"))
+            plt.savefig(os.path.join(generalpath,"loss.pdf"))
             plt.close()
             
             plt.plot(rewsafe2,linewidth=1,color='black')
 
             plt.xlabel(r'Training Steps')
             plt.xticks([0,50,100],('0', str(int(n_steps/2)), str(n_steps)))
-            plt.savefig(os.path.join(generalpath,"/cost.pdf"))
+            plt.savefig(os.path.join(generalpath,"cost.pdf"))
             plt.close()
             
         step=step+1
 
 def use_model(generalpath,depth,alpha,stdnodes,agentlayers,choice,evalsteps):    
     if choice=='last':
-        restorepath=os.path.join(generalpath,"/last")
+        restorepath=os.path.join(generalpath,"last")
         
     else:
-        restorepath=os.path.join(generalpath,"/checkpoint"+str(choice))
+        restorepath=os.path.join(generalpath,"checkpoint"+str(choice))
         
     neuralnet=Net(stdnodes,agentlayers)
     neuralnet.load_state_dict(torch.load(restorepath))
