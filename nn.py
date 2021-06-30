@@ -8,6 +8,7 @@ import env
 import matplotlib.pyplot as plt
 import mcts
 import copy
+import os
 
 #class for neural network
 class Net(torch.nn.Module):
@@ -302,7 +303,7 @@ def train_model(generalpath,n_steps,learning_rate,batch_size,
         print('step',step)
         #checkpoint saving
         if step%cp_interval==0:
-            torch.save(neuralnet.state_dict(), generalpath+"/checkpoint%s"%str(cpcount))
+            torch.save(neuralnet.state_dict(), os.path.join(generalpath,"/checkpoint%s"%str(cpcount)))
             cpcount=cpcount+1
         
         totlosstoplot=0
