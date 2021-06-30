@@ -11,11 +11,11 @@ When using this work, please cite our publications:
 
 [1] **Automated Synthesis of Steady-State Continuous Processes using Reinforcement Learning**  
 Q. Göttl, D. G. Grimm, J. Burger  
-*Front. Chem. Sci. Eng.* 2021. DOI: 10.1007/s11705-021-2055-9  
+*Front. Chem. Sci. Eng.* 2021. DOI: https://doi.org/10.1007/s11705-021-2055-9  
 
 [2] **Automated Process Synthesis Using Reinforcement Learning**  
 Q. Göttl, D. G. Grimm, J. Burger  
-*Proceedings of the 31st European Symposium on Computer Aided Process Engineering (ESCAPE31)* 2021. DOI: 10.1016/B978-0-323-88506-5.50034-6
+*Proceedings of the 31st European Symposium on Computer Aided Process Engineering (ESCAPE31)* 2021. DOI: https://doi.org/10.1016/B978-0-323-88506-5.50034-6
 
 [3] **Automated Flowsheet Synthesis Using Hierarchical Reinforcement Learning: proof of concept**  
 Q. Göttl, D. G. Grimm, J. Burger  
