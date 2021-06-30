@@ -3,7 +3,7 @@
 [![PyTorch 1.7](https://img.shields.io/badge/PyTorch-1.7-FF6F00?logo=pytorch)](https://github.com/pytorch/pytorch/releases/tag/v1.7.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A RL based approach for automated flowsheet synthesis for chemical processes. The agent is trained by transforming the task of creating a profitable flowsheet into a turn based two-player game. This transformation allows to employ a similar training procedure as used for AlphaZero.  
+A reinforcement learning (RL) based approach for automated flowsheet synthesis for chemical processes. The agent is trained by transforming the task of creating a profitable flowsheet into a turn based two-player game. This transformation allows to employ a similar training procedure as used for AlphaZero.  
 
 
 ## Citation
@@ -17,6 +17,6 @@ Q. Göttl, D. G. Grimm, J. Burger
 Q. Göttl, D. G. Grimm, J. Burger  
 *Proceedings of the 31st European Symposium on Computer Aided Process Engineering (ESCAPE31)* 2021. DOI: 10.1016/B978-0-323-88506-5.50034-6
 
-[3] **Automated Flowsheet Synthesis Using Hierarchical Reinforcement Learning: proof of concept**
+[3] **Automated Flowsheet Synthesis Using Hierarchical Reinforcement Learning: proof of concept**  
 Q. Göttl, D. G. Grimm, J. Burger  
 *Currently under review*
