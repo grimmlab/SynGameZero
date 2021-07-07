@@ -46,5 +46,5 @@ Q. Göttl, D. G. Grimm, J. Burger
 *Proceedings of the 31st European Symposium on Computer Aided Process Engineering (ESCAPE31)* 2021. (https://doi.org/10.1016/B978-0-323-88506-5.50034-6)
 
 [3] **Automated Flowsheet Synthesis Using Hierarchical Reinforcement Learning: proof of concept**  
-Q. Göttl, D. G. Grimm, J. Burger  
+Q. Göttl, Y. Tönges, D. G. Grimm, J. Burger  
 *Currently under review*
