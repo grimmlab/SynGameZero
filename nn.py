@@ -418,7 +418,7 @@ def use_model(generalpath,depth,alpha,stdnodes,agentlayers,choice,evalsteps):
                 else:
                     tree.back(leaf,leaf.value)
                 
-            action,ps = tree.chmove(False)
+            action,ps = tree.chmove(True)
  
             if tree.backupped:
                 tree.backupped=False
