@@ -47,4 +47,4 @@ Q. Göttl, D. G. Grimm, J. Burger
 
 [3] **Automated Flowsheet Synthesis Using Hierarchical Reinforcement Learning: proof of concept**  
 Q. Göttl, Y. Tönges, D. G. Grimm, J. Burger  
-*Currently under review*
+*Chemie Ingenieur Technik* 2021. (https://doi.org/10.1002/cite.202100086)
