@@ -31,7 +31,7 @@ To run the code just execute:
 
 ```python3 main.py```  
 
-You can specifiy the output directory for all checkpoints and plots in the main.py file by updating the `temppath` variable. 
+You can specifiy the output directory for all checkpoints in the main.py file by updating the `temppath` variable. 
 The function nn.use_model loads a chosen checkpoint and uses the respective ANN to play the game evalsteps times on random instances.
 
 ## Publications
