@@ -218,6 +218,7 @@ def train_model(generalpath,n_steps,learning_rate,batch_size,
                 if not leaf.terminal:
                     if leaf.environments[0].done:
                         tree.expand(leaf,None,None,True)
+                        tree.back(leaf,0)
                         
                     else:
                         if leaf.level==0:
@@ -379,6 +380,7 @@ def use_model(generalpath,depth,alpha,stdnodes,agentlayers,choice,evalsteps):
                 if not leaf.terminal:
                     if leaf.environments[0].done:
                         tree.expand(leaf,None,None,True)
+                        tree.back(leaf,0)
                         
                     else:
                         if leaf.level==0:
