@@ -27,11 +27,13 @@ Install all dependencies using pip:
 ```pip3 install -r requirements.txt```
 
 ## Run the Code
+In the branch ETBE_synthesis, a training procedure and tree search as described in [3] is shown for the example of ETBE synthesis. The branch ETBE_synthesis2.0 shows an improved version of this framework.
+
 To run the code just execute:
 
 ```python3 main.py```  
 
-You can specifiy the output directory for all checkpoints in the main.py file by updating the `temppath` variable. 
+You can specifiy the output directory in the main.py file by updating the `temppath` variable. 
 The function nn.use_model loads a chosen checkpoint and uses the respective ANN to play the game evalsteps times on random instances.
 
 ## Publications
