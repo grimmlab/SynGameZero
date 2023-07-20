@@ -18,7 +18,7 @@ Then create a new virtual environment:
 
 ```virtualenv syngamezero```  
 
-Active your environment:
+Activate your environment:
 
 ```source syngamezero/bin/active```  
 
@@ -27,7 +27,7 @@ Install all dependencies using pip:
 ```pip3 install -r requirements.txt```
 
 ## Run the Code
-In the branch ETBE_synthesis, a training procedure and tree search as described in [3] is shown for the example of ETBE synthesis. The branch ETBE_synthesis2.0 shows an improved version of this framework.
+In the branch ETBE_synthesis, a training procedure and tree search as described in [3] is shown for the example of ETBE synthesis. The branch ETBE_synthesis2.0 shows an improved version of this framework, which is described in [4].
 
 To run the code just execute:
 
@@ -50,3 +50,7 @@ Q. Göttl, D. G. Grimm, J. Burger
 [3] **Automated Flowsheet Synthesis Using Hierarchical Reinforcement Learning: proof of concept**  
 Q. Göttl, Y. Tönges, D. G. Grimm, J. Burger  
 *Chemie Ingenieur Technik* 2021. (https://doi.org/10.1002/cite.202100086)
+
+[4] **Using Reinforcement Learning in a Game-like Setup for Automated Process Synthesis without Prior Process Knowledge**  
+Q. Göttl, D. G. Grimm, J. Burger  
+*Computer Aided Chemical Engineering* 2022. (https://doi.org/10.1016/B978-0-323-85159-6.50259-1)
